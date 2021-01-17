@@ -23,10 +23,11 @@ var primervalor = Nombre('Brauly')('Perez');
 //console.log(primervalor);
 
 function ejecutar(funcion){
+    console.log('hola mano ')
     funcion();
 }
 
-//ejecutar(Hola);
+ejecutar(Hola);
 
 function Hola(){
  console.log('ps mira que si se puede puto')
